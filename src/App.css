@@ -14,7 +14,7 @@ hr {
     display: none;
   }
 }
-
+/* --------------------------------Cards */
 #cards-main-div {
   margin: 5rem 0rem;
 }
@@ -31,15 +31,77 @@ hr {
   width: 100vw;
   justify-content: space-around;
 }
-#cards-main-div #content h1 {
-  margin-left: 10rem;
-}
+/* #cards-main-div #content h1 {} */
 #cards-main-div #content #link {
   color: rgb(156, 156, 156);
   display: flex;
   flex-direction: row;
 }
-#cards-main-div #content #link #icon{
+#cards-main-div #content #link #icon {
+  font-size: 1.5rem;
+}
+/* --------------------------------Cards */
+#content-main-div {
+  background: wheat;
+  padding: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+#content-main-div h1,
+p {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+
+#content-main-div p {
+  width: 70%;
   font-size: 2rem;
-  margin-bottom: 13px;
+}
+#content-main-div #cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+#content-main-div #cards #card {
+  background: white;
+  border-radius: 50%;
+  height: 18rem;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#content-main-div #cards #card p {
+  font-size: medium;
+}
+#content-main-div #cards #card #card-icon {
+  font-size: 3rem;
+}
+#content-main-div #description {
+  margin: auto;
+}
+#content-main-div #link {
+  color: rgb(156, 156, 156);
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: 10rem;
+  text-decoration: underline;
+}
+/* ----------------------grid-carousel */
+#events{
+  /* margin: 5rem 0rem; */
+}
+#carousal-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#carousal-item .content{
+  background-color: tomato;
+  padding: 3.2rem 5rem;
+  border-radius: 50%;
 }
