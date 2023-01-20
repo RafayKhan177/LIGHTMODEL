@@ -1,47 +1,45 @@
 const events = [
     {
         month: "FEB",
-        date: "14",
+        dayNo: "14",
         day: "Sun",
         title: "Valentine's Day Dinner",
         time: "6:00PM",
-    }, {
+        date: "2023-02-01" 
+    },
+    {
         month: "MAR",
-        date: "17",
+        dayNo: "17",
         day: "Wed",
         title: "St. Patrick's Day Celebration",
         time: "7:00PM",
-    }, {
+        date: "2023-03-17"
+    },
+    {
         month: "APR",
-        date: "1",
+        dayNo: "1",
         day: "Thu",
         title: "April Fools' Day Prank",
         time: "12:00PM",
-    }, {
+        date: "2023-04-01"
+    },
+    {
         month: "MAY",
-        date: "8",
+        dayNo: "8",
         day: "Sun",
         title: "Mother's Day Brunch",
         time: "11:00AM",
-    }, {
+        date: "2023-05-08"
+    },
+    {
         month: "JUN",
-        date: "19",
+        dayNo: "19",
         day: "Sat",
         title: "Father's Day BBQ",
         time: "2:00PM",
-    }, {
-        month: "JUL",
-        date: "4",
-        day: "Sun",
-        title: "Independence Day Fireworks",
-        time: "9:00PM",
-    }, {
-        month: "AUG",
-        date: "21",
-        day: "Mon",
-        title: "Solar Eclipse Viewing Party",
-        time: "1:00PM",
-    }
-]
+        date: "2023-06-19"
+    },
+    // add more events here
+];
 
-export default events
+export default events;

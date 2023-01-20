@@ -69,12 +69,13 @@ export default function Home() {
       </div>
       <div id="events">
         <div id="content">
-          <h1>News</h1>
+          <h1>Events</h1>
           <NavLink id="link">
             <h5>VIEW ALL </h5>
             <BiArrowFromLeft id="icon" />
           </NavLink>
         </div>
+        <hr />
         <GridCarousel />
       </div>
     </>

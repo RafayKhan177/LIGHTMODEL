@@ -6,7 +6,7 @@
 
 hr {
   width: 80vw;
-  margin: auto;
+  margin: 10px auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -17,6 +17,7 @@ hr {
 /* --------------------------------Cards */
 #cards-main-div {
   margin: 5rem 0rem;
+  overflow: hidden;
 }
 #cards {
   display: flex;
@@ -48,6 +49,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
+  /* width: 80vw; */
 }
 #content-main-div h1,
 p {
@@ -91,17 +93,27 @@ p {
   text-decoration: underline;
 }
 /* ----------------------grid-carousel */
-#events{
-  /* margin: 5rem 0rem; */
+#events {
+  margin: 5rem 0rem;
+  width: 98vw;
+  overflow-x: hidden;
 }
-#carousal-item{
+#carousal-item {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#carousal-item .content{
+#carousal-item .content {
   background-color: tomato;
   padding: 3.2rem 5rem;
   border-radius: 50%;
+}
+#events #content #link {
+  color: rgb(156, 156, 156);
+  display: flex;
+  flex-direction: row;
+}
+#events #content #link #icon {
+  font-size: 1.5rem;
 }
