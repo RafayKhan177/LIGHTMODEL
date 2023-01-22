@@ -11,3 +11,4 @@ export { default as StudentLife } from "./StudentLife";
 export { default as Athletics } from "./Athletics";
 export { default as Academics } from "./Academics";
 export { default as Admissions } from "./Admissions";
+export { default as About } from "./About";

@@ -8,6 +8,7 @@ import {
   Parents,
   SummerPrograms,
   Footer,
+  About,
   Admissions,
   Academics,
   Athletics,
@@ -28,6 +29,7 @@ function App() {
         <Route exect path="/alumni" element={<Alumini />} />
         <Route exect path="/summer-programs" element={<SummerPrograms />} />
         
+        <Route exect path="/about" element={<About />} />
         <Route exect path="/admissions" element={<Admissions />} />
         <Route exect path="/academics" element={<Academics />} />
         <Route exect path="/athletics" element={<Athletics />} />

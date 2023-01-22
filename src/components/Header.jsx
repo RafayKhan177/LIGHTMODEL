@@ -11,6 +11,7 @@ function Header() {
     <Navbar bg="light" expand="sm" className='navbar'>
       <Container>
           <Nav className="mx-auto">
+            <NavLink to="/about" ><Button>About</Button></NavLink>
             <NavLink to="/admissions" ><Button>ADMISSIONS</Button></NavLink>
             <NavLink to="/academics" ><Button>ACADEMICS</Button></NavLink>
             <NavLink to="/athletics" ><Button>ATHLETICS</Button></NavLink>

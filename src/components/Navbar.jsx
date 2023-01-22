@@ -35,8 +35,8 @@ function DrawerAppBar(props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <NavLink to={item}>
+        {navItems.map((item,index) => (
+          <NavLink key={index} to={item}>
             <ListItem key={item} disablePadding>
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText primary={item} />
@@ -105,8 +105,8 @@ function DrawerAppBar(props) {
             LIGHTMODEL
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            {navItems.map((item) => (
-              <NavLink to={item}>
+            {navItems.map((item,index) => (
+              <NavLink key={index} to={item}>
                 <Button key={item} sx={{ color: "#fff" }}>
                   {item}
                 </Button>

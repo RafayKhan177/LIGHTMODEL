@@ -6,7 +6,7 @@ import events from "./events";
 
 export default class Calendar extends React.Component {
   render() {
-    const filteredEvents = events.map((event) => {
+    const filteredEvents = events.map((event,index) => {
       return {
         title: event.title,
         date: event.date,
