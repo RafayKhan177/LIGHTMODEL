@@ -1,32 +1,13 @@
-import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import Cards from "./Cards";
 import { NavLink } from "react-router-dom";
 import { BiArrowFromLeft } from "react-icons/bi";
 import GridCarousel from "./GridCarousel";
+import { Carousal } from "./Carousal";
 
 export default function Home() {
   return (
     <>
-      <MDBCarousel showControls showIndicators>
-        <MDBCarouselItem
-          className="w-100 d-block"
-          itemId={1}
-          src="https://mdbootstrap.com/img/new/slides/041.jpg"
-          alt="..."
-        />
-        <MDBCarouselItem
-          className="w-100 d-block"
-          itemId={2}
-          src="https://mdbootstrap.com/img/new/slides/042.jpg"
-          alt="..."
-        />
-        <MDBCarouselItem
-          className="w-100 d-block"
-          itemId={3}
-          src="https://mdbootstrap.com/img/new/slides/043.jpg"
-          alt="..."
-        />
-      </MDBCarousel>
+      <Carousal/>
       <div id="cards-main-div">
         <div id="content">
           <h1>News</h1>
